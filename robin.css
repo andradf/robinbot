@@ -1,0 +1,47 @@
+.robin-chat--buttons 
+{
+    display: flex;
+}
+.robin-chat--buttons .robin-chat--vote
+{
+    width: 71px;
+    flex:1 1;
+    transition:background-color 0.15s;
+    background-color:#ffffff;
+    border:none;
+    border-radius:2px;
+    box-shadow:0px 1px 2px 0px rgba(0,0,0,0.2);
+    color:#3c3c3c;
+    
+    display:block;
+    font-size:13px;
+    line-height:20px;
+    margin:5px;
+    padding-bottom:5px;
+    padding-top:5px;
+    text-align:center;
+    text-transform:capitalize
+}
+button
+{
+    cursor:pointer;
+    -webkit-appearance: button;
+    padding: 2px 6px 3px;
+}
+.robin-chat .robin-chat--vote .robin--icon
+{
+    display: block;
+    margin: auto;
+} 
+.robin--vote-class--abandon .robin--icon
+{
+    background-image:url(sprite-robin.aHOVyvXEzgU.png);
+    background-position:0px -69px;
+    background-repeat:no-repeat;
+    background-size:20px 288px;
+}
+.robin--vote-class--continue .robin--icon{background-image:url(sprite-robin.aHOVyvXEzgU.png);background-position:0px -115px;background-repeat:no-repeat;background-size:20px 288px}
+
+.robin--vote-class--increase .robin--icon{background-image:url(sprite-robin.aHOVyvXEzgU.png);background-position:0px -161px;background-repeat:no-repeat;background-size:20px 288px}
+
+.robin--icon{background-image:url(sprite-robin.aHOVyvXEzgU.png);background-position:0px -394px;background-repeat:no-repeat;display:inline-block;width:20px;height:20px;vertical-align:middle;margin-right:5px}

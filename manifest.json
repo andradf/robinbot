@@ -1,0 +1,25 @@
+{
+  "name": "Robinbot",
+  "description": "Automatically press button for reddit robin",
+  "version": "1.0",
+  "icons": {"128": "robin.png"},
+  "background": 
+  {
+      "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs", "https://www.reddit.com/robin", "storage"
+  ],
+  "browser_action": {
+      "default_title": "Set this page's color.",
+      "default_icon": "robin.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "content_scripts":[
+      {
+      "matches": ["https://www.reddit.com/robin"],
+      "js": ["content.js"]
+    }
+  ]
+}
